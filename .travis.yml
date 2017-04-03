@@ -6,8 +6,10 @@ python:
 
 install: false
 
-# branches:
-#   only:
-#     - master
+branches:
+  only:
+    - travis
+
+cache: pip
 
 script: ./build.sh
